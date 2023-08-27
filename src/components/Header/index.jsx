@@ -7,7 +7,7 @@ import iconBusca from "../../assets/icon-busca.svg";
 
 export default function Header () {
     return (
-        <header className="flex py-5 px-5 md:px-24 items-center justify-evenly">
+        <header className="flex py-5 px-5 md:px-24 items-center justify-evenly bg-slate-50">
             <button className="mr-10 md:hidden">
                 <img src={iconMenu} alt="icone de menu"/>
             </button>
